@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "intent": "RecipeSearchIntent",
+      "slots": [
+        {
+          "name": "food",
+          "type": "AMAZON.Food"
+        }
+      ]
+    },
+    {
+      "intent": "IngredientRequestIntent",
+      "slots": [
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "place",
+          "type": "LIST_OF_PLACES"
+        }
+      ]
+    },
+    {
+      "intent": "DirectionsRequestIntent",
+      "slots": [
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "place",
+          "type": "LIST_OF_PLACES"
+        }
+      ]
+    },
+    {
+      "intent": "IncrementalIngredientRequestIntent",
+      "slots": [
+        {
+          "name": "increment",
+          "type": "LIST_OF_INCREMENT"
+        }
+      ]
+    },
+    {
+      "intent": "IncrementalDirectionsRequestIntent",
+      "slots": [
+        {
+          "name": "increment",
+          "type": "LIST_OF_INCREMENT"
+        }
+      ]
+    },
+    {
+      "intent": "AllIngredientsRequestIntent"
+    },
+    {
+      "intent": "AllDirectionsRequestIntent"
+    },
+    {
+      "intent": "RestartListIntent"
+    },
+    {
+      "intent": "ExamplesIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

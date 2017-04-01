@@ -1,0 +1,78 @@
+RecipeSearchIntent {food}
+RecipeSearchIntent Find {food}
+RecipeSearchIntent I'd like to make {food}
+RecipeSearchIntent I want to make {food}
+RecipeSearchIntent I want to make a {food}
+RecipeSearchIntent How do I make {food}
+RecipeSearchIntent How do I make a {food}
+RecipeSearchIntent Do you know how to make {food}
+RecipeSearchIntent Do you know how to make a {food}
+RecipeSearchIntent Do you know how to cook {food}
+RecipeSearchIntent Do you know how to cook a {food}
+RecipeSearchIntent What is the recipe for {food}
+RecipeSearchIntent What is the recipe for a {food}
+
+IngredientRequestIntent Ingredients
+IngredientRequestIntent What are the ingredients
+IngredientRequestIntent What do I need to make that
+IngredientRequestIntent What ingredients do I need to make that
+IngredientRequestIntent Can you tell me ingredient {number}
+IngredientRequestIntent What is ingredient {number}
+IngredientRequestIntent What is the {place} ingredient
+IngredientRequestIntent {place} ingredient
+
+DirectionsRequestIntent Directions
+DirectionsRequestIntent Steps
+DirectionsRequestIntent What are the directions
+DirectionsRequestIntent What are the steps
+DirectionsRequestIntent How do I make that
+DirectionsRequestIntent What do I need to do to make that
+DirectionsRequestIntent What is direction {number}
+DirectionsRequestIntent What is step {number}
+DirectionsRequestIntent Can you tell me direction {number}
+DirectionsRequestIntent Can you tell me step {number}
+DirectionsRequestIntent What is the {place} direction
+DirectionsRequestIntent What is the {place} step
+DirectionsRequestIntent {place} direction
+DirectionsRequestIntent {place} step
+DirectionsRequestIntent Read recipe
+DirectionsRequestIntent Recipe
+DirectionsRequestIntent Start
+
+IncrementalIngredientRequestIntent what is the {increment} ingredient
+IncrementalIngredientRequestIntent {increment} ingredient
+
+IncrementalDirectionsRequestIntent what is the {increment} ingredient
+IncrementalDirectionsRequestIntent what is the {increment} step
+IncrementalDirectionsRequestIntent {increment} direction
+IncrementalDirectionsRequestIntent {increment} step
+
+AllIngredientsRequestIntent what are all the ingredients
+AllIngredientsRequestIntent Can you tell me all the ingredients
+AllIngredientsRequestIntent Can you tell me all the ingredients to make that
+
+AllDirectionsRequestIntent what are all the directions
+AllDirectionsRequestIntent What are all the steps
+AllDirectionsRequestIntent Can you tell me all the steps
+AllDirectionsRequestIntent Can you tell me all the steps to make that
+
+RestartListIntent Start again
+RestartListIntent Start over
+
+ExamplesIntent What can I say
+ExamplesIntent How do I use you
+
+AMAZON.StartOverIntent main menu
+AMAZON.RepeatIntent Can you repeat that
+AMAZON.RepeatIntent Repeat that
+AMAZON.RepeatIntent Repeat
+AMAZON.RepeatIntent Say that again
+AMAZON.RepeatIntent Can you say that again
+AMAZON.RepeatIntent I didn't catch what you said
+AMAZON.RepeatIntent I couldn't understand
+AMAZON.StopIntent quit
+AMAZON.StopIntent exit
+AMAZON.StopIntent end
+AMAZON.StopIntent done
+AMAZON.StopIntent I'm done
+AMAZON.CancelIntent Cancel
